@@ -35,4 +35,4 @@ Išvados: Didžiausią apdraustų darbuotojų kiekį turi įmonmė UAB "JTI BALT
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/shiny_PLOT1.png)
+![shiny app](img/Shiny_PLOT1.png)
