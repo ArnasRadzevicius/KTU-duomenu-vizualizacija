@@ -26,6 +26,7 @@ top_5 = filtered_data %>%
 top_5_companies = top_5 %>%
   arrange(desc(avg_salary)) %>%
   head(5)
+
 #atrenka duomenis tu 5 kompaniju 
 
 filtered_data2 = filtered_data %>%
@@ -45,5 +46,6 @@ filtered_data2 %>%
   ggplot(aes(x = reorder(name, -numInsured), y = numInsured), color = name) +
   geom_col(aes(fill = name)) +
   labs(title = "Number of insured employees", x = "Company", y = "count")
+
 
 
